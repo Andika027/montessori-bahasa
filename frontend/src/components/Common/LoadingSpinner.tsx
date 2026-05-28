@@ -1,0 +1,1 @@
+'use client';\n\nexport default function LoadingSpinner() {\n  return (\n    <div className=\"flex items-center justify-center\">\n      <div className=\"animate-spin rounded-full h-12 w-12 border-b-2 border-montessori-sage\"></div>\n    </div>\n  );\n}\n
